@@ -1,0 +1,51 @@
+/*generic comment*/
+body{
+	font-family: Corbel, Arial;
+	margin: 0;
+}
+a{
+	color: #000000;
+	text-decoration: none;
+}
+/********** caratteristiche dell'header - Titolo e Menu di navigazione **********/
+#header{
+	background-color: #6ab47b;
+}
+h1{
+	margin: 0; 
+	text-align: center;
+	padding: 15px 0 0 0;
+	text-transform: uppercase;
+}
+h2{
+	margin: 0;
+	text-align: center;
+}
+#head{
+	color: #ffffff;
+}
+#nav{
+	background-color: #599a68;
+	text-align: center;
+	list-style-type: none;
+}
+#nav li{
+	display: inline-block;
+	padding: 6px 8px 6px 8px;
+}
+#nav li:hover{
+	background-color: #6ab47b;
+}
+#nav li a{
+color: #ffffff
+}
+/********** caratteristiche del content - Sotto titolo e Menu **********/
+#contentt{
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+#contentt h4{
+	border-bottom: #599a68 solid 3px;
+}
